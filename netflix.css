@@ -5,11 +5,7 @@ body
     box-sizing: border-box;
     overflow-x: hidden;
     color: white;
-    background-color: #636262;
-    background-blend-mode: multiply;
-    background-size: cover;
-    opacity: 1;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-color: #282828;
 }
 
 header>ul
@@ -20,21 +16,15 @@ header>ul
     margin-top: -5px;
     margin-bottom: -6px;
     gap: 80%;
+
 }
-
-/* .img
-{
-    font-size: 3rem;
-    color: red;
-} */
-
 .signin
 {
     border: 1px solid rgb(219, 48, 48);
     margin-top: 15px;
     background-color:rgb(255, 59, 59);
     color:white;
-    height: 30px;
+    height: 40px;
     width: 100px;
     border-radius: 4px;
     opacity: 0.9;
@@ -52,10 +42,15 @@ header>ul
 
 .container
 {
-    height: 90vh;
+    height: 100vh;
     width:100%;
     border: 2px solid black;
     text-align: center;
+    background-color: #616161;
+    background-blend-mode: multiply;
+    background-size: cover;
+    opacity: 1;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
 }
 
 .intro
@@ -72,9 +67,13 @@ header>ul
 {
     font-family: sans-serif;
     font-weight: bolder;
-    font-size: 2.5rem;
-    margin-bottom: -20px;
-    
+    font-size: 3rem;
+    margin-bottom: -20px;  
+}
+
+.intro>h1#highlight1
+{
+    margin-top: -5px;
 }
 
 .intro>#para-top
@@ -86,16 +85,17 @@ header>ul
 
 form>input
 {
-    height: 35px;
-    width: 360px;
+    height: 45px;
+    width: 450px;
     padding-left: 0.5rem;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 1px;
+    background-color: #ffffff;
 }
 
 form>button
 {
-    height: 37px;
+    height: 49px;
     width: 200px;
     background-color: rgb(255, 66, 66);
     color: white;
@@ -115,9 +115,380 @@ form>button
     opacity: 0.9;
 }
 
-button:hover
+form>button:hover
 {
     opacity: 1;
     background-color: rgba(255, 0, 0, 0.877);
     cursor:pointer; 
 }
+
+.container-1
+{
+    margin-top: 8px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: red;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.cont1-left
+{
+    height: 350px;
+    width: 550px;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top: 120px;
+}
+
+.cont1-right
+{
+    height: 350px;
+    width: 540px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 110px;
+    background-position:top;
+    background-image: url(https://www.vanas.ca/images/blog/vfx-visual-effects-vanas.jpg);
+    background-size:cover;
+    transition:0.8s ease;
+    border: 1px solid rgb(61, 60, 60);
+    border-radius: 8px;
+    animation:animated 2s linear infinite;
+}
+
+.cont1-right:hover
+{
+   background-position: bottom;
+   cursor:pointer;
+
+}
+
+.cont1-left>h1
+{
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.cont1-left>p
+{
+   font-family:'Times New Roman', Times, serif;
+   font-size: 1.3rem;
+}
+
+
+.container-2
+{
+    margin-top: 8px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    gap: 150px;   
+}
+
+.cont2-left
+{
+    height: 350px;
+    width: 550px;
+    color: white;
+    border: 1px solid rgb(61, 60, 60);
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top: 120px;
+    background-size:contain;
+    transition: 0.8s ease;
+    background-position: top;
+    background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/01/The-Best-Action-Movies-on-Netflix-Right-Now.jpg);
+}
+
+.cont2-left:hover
+{
+    background-position: bottom;
+    cursor:pointer;
+}
+
+.cont2-right
+{
+    height: 330px;
+    width: 540px;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    border-radius: 3px;
+}
+
+.cont2-right>span>h1
+{
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.cont2-right>p
+{
+   font-family:'Times New Roman', Times, serif;
+   font-size: 1.3rem;
+   margin-bottom: -5px;
+}
+
+.container-3
+{
+    margin-top: 8px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.cont3-left
+{
+    height: 350px;
+    width: 530px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top: 90px;
+}
+
+.cont3-left>span>h1
+{
+  font-size: 3.4rem;
+  font-family: sans-serif;
+}
+
+.cont3-left>span>p
+{
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container-4
+{
+    margin-top: 8px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    gap: 150px;  
+}
+
+.cont4-left
+{
+    height: 350px;
+    width: 530px;
+    box-shadow: 10px 10px 5px rgba(0 , 0, 0 , 0.19);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top: 120px;
+    background-position: top;
+    background-color:#676464;
+    background-blend-mode: hard-light;
+    background-size:cover;
+    background-image:url(https://img.freepik.com/free-vector/group-young-children-cartoon-character-white-background_1308-51545.jpg?size=626&ext=jpg&ga=GA1.1.1176379839.1715184736&semt=ais_user)
+}
+
+.cont4-right
+{
+    height: 350px;
+    width: 530px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cont4-right>span>h1
+{
+   font-family:sans-serif;
+   font-size:3.4rem; 
+}
+
+.cont4-right>span>p
+{
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.container-5
+{
+    height: 900px;
+    margin-top: -40px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    gap: 250px;  
+    text-align: center;
+}
+
+.cont5-top
+{
+    height: 650px;
+    width: 1000px;
+    position: relative;
+    left:50%;
+    top: 48%;
+    transform: translate(-50% , -50%);
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cont5-top>ul
+{
+    list-style: none;
+}
+
+.cont5-top>h1
+{
+    font-size: 3.2rem;
+}
+
+.cont5-top>ul>li
+{
+    border:2px solid rgb(42, 42, 43);
+    height: 60px;
+    margin-bottom: 15px;
+    padding-left: -2rem;
+    padding-top: 1rem;
+    font-size:1.5rem;
+    font-weight: bold;
+    color: #676464;
+    font-family: sans-serif;
+}
+
+.cont5-top>ul>li:hover
+{
+    cursor:pointer;
+    background-color:#676464;
+    color: aliceblue;
+}
+
+.container-5>h3
+{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container-5>input
+{
+    height: 45px;
+    width: 450px;
+    padding-left: 0.6rem;
+    border-radius: 4px;
+    background-color: #0b0b0b;
+    border:1px solid white;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(250, 253, 255);
+}
+
+.container-5>button
+{
+    height: 49px;
+    width: 220px; 
+    background-color: #fb2525;
+    border:1px solid white;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    opacity: 0.8;
+}
+
+.container-5>button:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    background-color: #ff0000;
+}
+
+.container-6
+{
+    height: 450px;
+    margin-top: 8px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+}
+
+.list-1>ul, .list-2>ul , .list-3>ul
+{
+    list-style: none;
+    
+}
+
+.container-6>.list-1
+{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin-top: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+.container-6>.list-2
+{
+    height: 200px;
+    width: 250px;
+    margin-top: 110px;
+    margin-right: 50px;
+}
+
+.container-6>.list-3
+{
+    height: 200px;
+    width: 300px;
+    margin-top: 110px;
+}
+
+.list-1>ul>li, .list-2>ul>li , .list-3>ul>li
+{
+    font-size: medium;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.list-1>ul>li>a, .list-2>ul>li>a , .list-3>ul>li>a
+{
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.list-1>ul>li>a:hover, .list-2>ul>li>a:hover , .list-3>ul>li>a:hover
+{
+    color: blue;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
