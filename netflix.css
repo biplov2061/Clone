@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+    background-color: #636262;
+    background-blend-mode: multiply;
+    background-size: cover;
+    opacity: 1;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+}
+
+header>ul
+{
+    display: flex;
+    list-style: none;
+    margin-left: -10px;
+    margin-top: -5px;
+    margin-bottom: -6px;
+    gap: 80%;
+}
+
+/* .img
+{
+    font-size: 3rem;
+    color: red;
+} */
+
+.signin
+{
+    border: 1px solid rgb(219, 48, 48);
+    margin-top: 15px;
+    background-color:rgb(255, 59, 59);
+    color:white;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.signin:hover
+{
+    background-color: rgba(255, 3, 3, 0.819);
+    cursor:pointer;
+}
+
+
+.container
+{
+    height: 90vh;
+    width:100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.intro
+{
+    height: 450px;
+    width: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.intro>h1
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: -20px;
+    
+}
+
+.intro>#para-top
+{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.3rem;
+   padding-top: 15px;
+}
+
+form>input
+{
+    height: 35px;
+    width: 360px;
+    padding-left: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+form>button
+{
+    height: 37px;
+    width: 200px;
+    background-color: rgb(255, 66, 66);
+    color: white;
+    border-radius: 3px;
+    margin-left: -4px;
+    border:0.5px solid red;
+    margin-top: 2px;
+}
+
+form>button
+{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    border-radius: 1px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+button:hover
+{
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.877);
+    cursor:pointer; 
+}
