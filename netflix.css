@@ -361,25 +361,43 @@ form>button:hover
     font-size: 3.2rem;
 }
 
-.cont5-top>ul>li
+
+/*javascript question drop down part*/
+
+.Net_questions
 {
-    border:2px solid rgb(42, 42, 43);
-    height: 60px;
-    margin-bottom: 15px;
-    padding-left: -2rem;
-    padding-top: 1rem;
-    font-size:1.5rem;
-    font-weight: bold;
-    color: #676464;
-    font-family: sans-serif;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    gap: 0.3rem;
+    padding: 8px 8px;
+    border:1px solid rgb(71, 70, 70);
+    margin-bottom: 10px;
 }
 
-.cont5-top>ul>li:hover
+
+.Net_questions:hover
+{
+    background-color: #434242;
+}
+
+.Net_questions>.question 
 {
     cursor:pointer;
-    background-color:#676464;
-    color: aliceblue;
 }
+
+.Net_questions>.answer
+{
+    color:white;
+    max-height:0;
+    overflow: hidden;  
+    font-family: sans-serif; 
+}
+
+.answer.active
+{
+   max-height: fit-content;
+}
+
 
 .container-5>h3
 {
