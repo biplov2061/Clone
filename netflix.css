@@ -105,7 +105,7 @@ form>button
     margin-top: 2px;
 }
 
-form>button
+form>button>a
 {
     text-decoration: none;
     color:white;
@@ -431,6 +431,12 @@ form>button:hover
     font-family: sans-serif;
     color: white;
     opacity: 0.8;
+}
+.container-5>button>a
+{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
 }
 
 .container-5>button:hover
