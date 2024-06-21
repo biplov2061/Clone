@@ -1,0 +1,483 @@
+body
+{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+background-color: rgb(0, 0, 0);
+overflow-x: hidden;
+font-family: sans-serif;
+}
+
+header
+{
+    margin-top: 0;
+    background:transparent;
+    /* background:linear-gradient(170deg , rgb(0, 0, 0), rgba(98, 3, 3, 0.5)); */
+    position: sticky;
+}
+header>ul
+{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header>ul>li
+{
+    list-style: none;   
+    margin-top: 10px;
+}
+
+#sidebar
+{
+    margin-left: 510px;
+    cursor: pointer;
+    border-radius:3px;
+    align-items: center;
+    justify-content: center;
+    padding:0 2px;
+}
+
+#ham
+{
+    height: 30px;
+    width: 30px;
+}
+
+
+#sidebar:hover
+{
+    background-color: rgb(82, 77, 77);
+}
+
+#search
+{
+    height: 60px;
+    width: 740px;
+    padding-left: 0.5rem;
+    color: rgb(249, 243, 243);
+    border-radius: 4px;
+    margin-left: 420px;
+    background-color: black;
+    border:2px solid rgb(49, 49, 49);
+    margin-bottom: 20px;
+}
+
+#search-btn
+{
+    height: 33px;
+    color: white;
+    background-color: rgb(223, 56, 56);
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 100px;
+    font-size: large;
+    padding-bottom: 5px;
+    margin-left: 12px;
+    opacity: 0.7;
+}
+
+#search-btn:hover
+{
+    cursor: pointer;
+    border-bottom-style: dashed;
+    box-shadow: 1px 2px 2px 2px rgba(239, 18, 18, 0.16);
+    opacity: 1;
+}
+
+#search-img
+{
+    height: 19px;
+    width: 18px; 
+    line-height: 0.1rem;
+    margin: 0;
+}
+
+header>ul>li>a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header>ul>li>a:hover
+{
+    color: red;
+}
+
+header>ul>li>#netflix-pic
+{
+    margin-top: 0;
+    height: 88px;
+}
+
+#search
+{
+    height: 28px;
+    cursor: pointer;
+}
+
+.container-1>h1
+{
+    margin-left: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container-1
+{
+    height:auto;
+    margin-top: 40px;
+}
+
+/* MOVIES SECTION STARTS */
+.container-1>.action-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex: 1 1 0;
+}
+
+.container-1>.action-section>.movies
+{
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+.container-1>.action-section>.movies:hover
+{
+  cursor: pointer;
+  border-color: red;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.container-1>.action-section>.movies>img
+{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 49, 49);
+}
+/*<-----------MOVIES SECTION ENDS -----------</>   */
+
+
+
+/* TV SHOWS SECTION STARTS */
+.container-1>.TVshows-section
+{
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex: 1 1 0;
+}
+
+.container-1>.TVshows-section>.movies
+{
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+.container-1>.TVshows-section>.movies>img
+{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid rgb(35, 34, 34);
+}
+
+.container-1>.TVshows-section>.movies:hover
+{
+  cursor: pointer;
+  border-color: red;
+  opacity: 1;
+}
+
+/*<-----------TV SHOWS SECTION ENDS -----------</>   */
+
+
+/*  COMEDY SHOW SECTION STARTS  ------------>  */
+.container-1>.comedy-section
+{
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex: 1 1 0;
+}
+
+.container-1>.comedy-section>.movies
+{
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+
+.container-1>.comedy-section>.movies>img
+{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid rgb(35, 34, 34);
+}
+
+.container-1>.comedy-section>.movies:hover
+{
+  cursor: pointer;
+  border-color: red;
+  opacity: 1;
+}
+/*<-----------COMEDY SHOW SECTION ENDS -----------</>   */
+
+
+
+/* <-------FEATURING SECTION ---------->  */
+
+.feature 
+{
+    height: auto;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.left-side
+{
+    height: auto;
+    width: auto;
+}
+
+.card
+{
+    height: 600px;
+    width: 450px;
+    background-size: cover;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 0.8;
+    border: 0.5px solid whitesmoke;
+}
+
+.card:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card>img
+{
+    height: 75%;
+    width: 100%;
+    border-radius: 8px;
+    /* border:1px solid rgb(44, 43, 43); */
+}
+
+.card>button
+{
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    border:1px solid rgb(218, 48, 48);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.card>button:hover
+{
+    border:1px solid whitesmoke;
+}
+
+.right-side
+{
+    height: auto;
+    width: calc(100% - 500px);
+}
+
+.display
+{
+    height: 600px;
+    width: 100%;
+    border-radius: 5px;
+    background:linear-gradient(120deg , rgb(17, 16, 16) , rgb(19, 18, 18));
+    margin-bottom: 25px;
+    color: white;
+    opacity: 0.7;
+}
+
+.display:hover
+{
+    opacity: 1;
+    background-color: rgb(125, 125, 123);
+    cursor: pointer;
+}
+
+.display>img
+{
+    height: 70%;
+    width: 50%;
+}
+
+.video
+{
+    margin-top: 0;
+    height: 420px;
+    width: 590px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+
+.video>video
+{
+    border-radius: 8px;
+}
+
+#feature-1
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-position: top;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-image: url(https://consequence.net/wp-content/uploads/2019/04/walkers-e1555191937470.jpg?quality=80);
+}
+
+
+
+.other-info
+{
+    height: 90%;
+    width: 450px;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50% , -50%);
+}
+
+.other-info>h1
+{
+    font-size: 3.4rem;
+    margin: 0;
+}
+
+
+.other-info>p
+{
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.other-info>select
+{
+    height: 40px;
+    width: 160px;
+    background-color: rgb(216, 51, 51);
+    border-radius: 6px;
+    border:1px solid rgb(130, 89, 89);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding-left: 0.4rem;
+}
+
+.other-info>select:hover
+{
+    border:1px solid rgb(199, 187, 187);
+}
+
+select>option
+{
+    background-color: white;
+    color: black;
+}
+
+.other-info>button
+{
+    height: 39px;
+    width: 140px;
+    background-color: rgb(81, 81, 81);
+    border-radius: 6px;
+    color: white;
+    padding-top: 2px;
+    padding-left: 0.3rem;
+    border:1px solid black;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.other-info>button:hover
+{
+    border:1px solid lightgray;
+}
+
+#trailer
+{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+footer>.getus
+{
+   height: 40vh;
+   width: 100%;
+   text-align: center;
+   color: white;
+}
+
+hr
+{
+    border: 1px solid rgb(81, 80, 80);
+}
+
+footer>.getus>a>img
+{
+   margin-left: 50px;
+   margin-bottom: 50px;
+}
+
+.getus>h3
+{
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+}
+
+.getus>p
+{
+    font-size: smaller;
+    color: #827e7e;
+    margin: 7px;
+}
+
+
+
+
+
+
+
+
