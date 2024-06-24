@@ -11,6 +11,7 @@ body
 header>ul
 {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin-left: -10px;
     margin-top: -5px;
@@ -61,6 +62,7 @@ header>ul
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    
 }
 
 .intro>h1
@@ -130,7 +132,10 @@ form>button:hover
     width: 100%;
     color: red;
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -142,8 +147,8 @@ form>button:hover
     /* border: 2px solid red; */
     text-align: center;
     justify-content: center;
-    margin-left: 190px;
-    margin-top: 120px;
+    /* margin-left: 190px;
+    margin-top: 120px; */
 }
 
 .cont1-right
@@ -153,11 +158,10 @@ form>button:hover
     color: white;
     text-align: center;
     justify-content: center;
-    margin-top: 110px;
     background-position:top;
     background-image: url(https://www.vanas.ca/images/blog/vfx-visual-effects-vanas.jpg);
     background-size:cover;
-    transition:0.8s ease;
+    transition:0.7s ease;
     border: 1px solid rgb(61, 60, 60);
     border-radius: 8px;
     animation:animated 2s linear infinite;
@@ -191,7 +195,10 @@ form>button:hover
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 150px;   
+    align-items: center;
+    justify-content: center;
 }
 
 .cont2-left
@@ -203,10 +210,10 @@ form>button:hover
     border-radius: 4px;
     text-align: center;
     justify-content: center;
-    margin-left: 190px;
-    margin-top: 120px;
+    /* margin-left: 190px;
+    margin-top: 120px; */
     background-size:contain;
-    transition: 0.8s ease;
+    transition: 0.7s ease;
     background-position: top;
     background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/01/The-Best-Action-Movies-on-Netflix-Right-Now.jpg);
 }
@@ -225,7 +232,7 @@ form>button:hover
     /* border: 2px solid red; */
     text-align: center;
     justify-content: center;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     border-radius: 3px;
 }
 
@@ -251,6 +258,9 @@ form>button:hover
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -261,8 +271,8 @@ form>button:hover
     color: white;
     text-align: center;
     justify-content: center;
-    margin-left: 190px;
-    margin-top: 90px;
+    /* margin-left: 190px;
+    margin-top: 90px; */
 }
 
 .cont3-left>span>h1
@@ -285,6 +295,9 @@ form>button:hover
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 150px;  
 }
 
@@ -296,8 +309,8 @@ form>button:hover
     color: white;
     text-align: center;
     justify-content: center;
-    margin-left: 190px;
-    margin-top: 120px;
+    /* margin-left: 190px;
+    margin-top: 120px; */
     background-position: top;
     background-color:#676464;
     background-blend-mode: hard-light;
@@ -312,7 +325,7 @@ form>button:hover
     color: white;
     text-align: center;
     justify-content: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .cont4-right>span>h1
@@ -369,7 +382,6 @@ form>button:hover
     background-color: rgb(40, 39, 39);
     color: white;
     gap: 0.3rem;
-    padding: 8px 8px;
     border:1px solid rgb(71, 70, 70);
     margin-bottom: 10px;
 }
@@ -507,6 +519,85 @@ form>button:hover
     cursor:pointer;
 }
 
+
+@media (width <= 1110px)
+{
+    .signin
+    {
+        width: auto;
+    }
+
+    .intro
+    {
+        max-width: fit-content;
+    }
+
+    form>input
+    {
+        width: auto;
+    }
+
+    form>button
+    {
+        width: auto;
+    }
+    .cont1-left
+    {
+        margin: 0;
+
+    }
+    .container-1
+    {
+        gap: 0;
+        max-width: fit-content;
+        height: auto;
+    }
+    .container-2
+    {
+        gap: 0;
+        max-width: fit-content;
+        height: auto;
+    }
+
+    .container-4
+    {
+        gap: 0;
+        max-width: fit-content;
+        height: auto;
+    }
+    .container-5
+    {
+        gap: 0;
+        max-width: fit-content;
+    }
+    .container-6
+    {
+        gap: 0;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .cont5-top
+    {
+        max-width: fit-content;
+    }
+
+    .Net_questions
+    {
+        height:140px;
+        width: auto;
+    }
+
+    .container-5>input
+    {
+        width: auto;
+    }
+
+    .container-5>button
+    {
+        width: auto;
+    }
+}
 
 
 
